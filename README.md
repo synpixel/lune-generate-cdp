@@ -20,8 +20,8 @@ You can install `lune-generate-cdp` simply by dragging [build-definitions.luau](
 
 `lune-generate-cdp` can/cannot:
 
-- ✅ export definitions for commands
-- ✅ export definitions for events
-- ✅ export general type definitions
-- ❌ export **type** definitions for commands
-- ❌ export **type** definitions for events
+- ✅ generate definitions for commands
+- ✅ generate definitions for events
+- ✅ generate general type definitions
+- ❌ generate **type** definitions for commands
+- ❌ generate **type** definitions for events
