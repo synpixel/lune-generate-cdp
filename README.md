@@ -1,7 +1,8 @@
 # lune-generate-cdp
 
-Generates Luau definition files from Chrome Devtools Protocol [JSON definitions](https://github.com/ChromeDevTools/devtools-protocol/tree/master/json) (based on the [auto_generate_cdp](https://github.com/mdrokz/auto_generate_cdp) crate).
+Generates Luau definition files from Chrome Devtools Protocol [JSON definitions](https://github.com/ChromeDevTools/devtools-protocol/tree/master/json).
 
+This script is based on the [auto_generate_cdp](https://github.com/mdrokz/auto_generate_cdp) crate.  
 You can see the output of [/json](/json) in [/protocol](/protocol) as an example.
 
 ## Installation
