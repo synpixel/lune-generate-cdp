@@ -324,8 +324,11 @@ export type CookieExemptionReason = (
 	| "CorsOptIn"
 	| "Scheme"
 )
-export type BlockedSetCookieWithReason =
-	{ blockedReasons: { SetCookieBlockedReason }, cookieLine: string, cookie: Cookie? }
+export type BlockedSetCookieWithReason = {
+	blockedReasons: { SetCookieBlockedReason },
+	cookieLine: string,
+	cookie: Cookie?,
+}
 export type ExemptedSetCookieWithReason = { exemptionReason: CookieExemptionReason, cookieLine: string, cookie: Cookie }
 export type AssociatedCookie = {
 	cookie: Cookie,

@@ -2,6 +2,8 @@
 
 Generates Luau definition files from Chrome Devtools Protocol [JSON definitions](https://github.com/ChromeDevTools/devtools-protocol/tree/master/json) (based on the [auto_generate_cdp](https://github.com/mdrokz/auto_generate_cdp) crate).
 
+You can see the output of [/json](/json) in [/protocol](/protocol) as an example.
+
 ## Installation
 
 You can install `lune-generate-cdp` simply by dragging [build-definitions.luau](/.lune/build-definitions.luau) into your project. From there, you can tweak constants to your liking.
